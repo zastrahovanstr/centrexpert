@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Специалисты</title>
+    <link rel="stylesheet" href="assets/style/fonts.css">
+    <link rel="stylesheet" href="assets/style/specialists.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__inner">
+                <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="logo"></a></div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="aboutUS.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="specialists.html">Специалисты</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <div class="line"></div>
+
+
+        <main class="main">
+            <section class="main__section1">
+                <div class="main__section1-inner">
+                    <div class="main__section1-inner-mainText">Наши специалисты:</div>
+                    <div class="main__section1-inner-block">
+                        <div class="main__section1-inner-block1">
+                            <div class="main__section1-inner-block1-img"><img src="assets/img/specialist1.png" alt="specialist1"></div>
+                            <div class="main__section1-inner-block1-text1">Директор</div>
+                            <div class="main__section1-inner-block1-text2">Денисова Наталья Анатольевна</div>
+                        </div>
+                        <div class="main__section1-inner-block1">
+                            <div class="main__section1-inner-block1-img"><img src="assets/img/specialist2.png" alt="specialist2"></div>
+                            <div class="main__section1-inner-block1-text1">Специалист по Страхованию и Ипотеке</div>
+                            <div class="main__section1-inner-block1-text2">Загидуллина Юлия Минвалеевна</div>
+                        </div>
+                        <div class="main__section1-inner-block1">
+                            <div class="main__section1-inner-block1-img"><img src="assets/img/specialist3.png" alt="specialist3"></div>
+                            <div class="main__section1-inner-block1-text1">Бухгалтер</div>
+                            <div class="main__section1-inner-block1-text2">Зубайдуллина Линара Миннигареевна</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__section2">
+                <div class="main__section2-inner">
+                    <div class="main__section2-inner-text1">В нашей бухгалтерской компании работает команда профессионалов, каждый из которых обладает значительным<br>опытом и высокой квалификацией в области бухгалтерского учета, налогообложения, страхования и финансового<br>консультирования. Мы гордимся тем, что наши специалисты имеют различные квалификации и сертификаты, что<br>позволяет нам предлагать нашим клиентам самые современные и эффективные решения.</div>
+                    <div class="main__section2-inner-text2">Наша цель – обеспечить клиентам уверенность в их финансовом состоянии, позволяя сосредоточиться на развитии<br>бизнеса. Мы готовы стать надежным партнером в вашей финансовой деятельности и помочь достичь новых высот.<br>Доверьте нам свои бухгалтерские задачи, и вы получите высококачественное обслуживание и результат, который<br>превзойдет ваши ожидания.</div>
+                </div>
+            </section>
+        </main>
+
+
+        <footer class="footer">
+            <div class="footer__line"></div>
+            <div class="footer-inner">
+                <div class="footer__logo"><img src="assets/img/logo.png" alt="logo"></div>
+                <div class="footer__icons">
+                    <div class="footer__icons-vk"><a href="https://vk.com/feed"><img src="assets/img/vk_footer.png" alt="vk"></a></div>
+                    <div class="footer__icons-tg"><a href="https://t.me/+rbtwxd7xIZk0ZDdi"><img src="assets/img/tg_footer.png" alt="tg"></a></div>
+                </div>
+                <div class="footer__copyright">Все права защищены @ 2025.</div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        })
+    </script>
+</body>
+</html>

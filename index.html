@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="assets/style/fonts.css">
+    <link rel="stylesheet" href="assets/style/main.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__inner">
+                <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="logo"></a></div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="aboutUS.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="specialists.html">Специалисты</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <div class="line"></div>
+
+
+        <main class="main">
+            <section class="main__section1">
+                <div class="main__section1-inner"><img src="assets/img/main1.png" alt="main1"></div>
+            </section>
+            
+            <section class="main__section2">
+                <div class="main__section2-inner">
+                    <div class="main__section2-inner-left"><img src="assets/img/main2.png" alt="main2"></div>
+                    <div class="main__section2-inner-right">
+                        <div class="main__section2-inner-right-text1">Что мы предлагаем:</div>
+                        <div class="main__section2-inner-right-text2">Подготовка и сдача отчетности.</div>
+                        <div class="main__section2-inner-right-text3">Расчет и оплата налогов.</div>
+                        <div class="main__section2-inner-right-text3">Расчеты с сотрудниками и кадровый учет.</div>
+                        <div class="main__section2-inner-right-text3">Подготовка документов для налоговой.</div>
+                        <div class="main__section2-inner-right-text3">Помощь в правовых вопросах.</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__section3">
+                <div class="main__section3-inner">
+                    <div class="main__section3-inner-mainText">Наши преимущества:</div>
+                    <div class="main__section3-inner-block">
+                        <div class="main__section3-inner-block1">
+                            <div class="main__section3-inner-block1-img"><img src="assets/img/icon1_main.png" alt="icon1_main"></div>
+                            <div class="main__section3-inner-block1-text">Безопасное<br>сотрудничество</div>
+                        </div>
+                        <div class="main__section3-inner-block1">
+                            <div class="main__section3-inner-block1-img"><img src="assets/img/icon2_main.png" alt="icon2_main"></div>
+                            <div class="main__section3-inner-block1-text">Персональная<br>команда</div>
+                        </div>
+                        <div class="main__section3-inner-block1">
+                            <div class="main__section3-inner-block1-img"><img src="assets/img/icon3_main.png" alt="icon3_main"></div>
+                            <div class="main__section3-inner-block1-text">Прозрачный<br>сервис</div>
+                        </div>
+                        <div class="main__section3-inner-block1">
+                            <div class="main__section3-inner-block1-img"><img src="assets/img/icon4_main.png" alt="icon4_main"></div>
+                            <div class="main__section3-inner-block1-text">0%<br>ошибок</div>
+                        </div>
+                        <div class="main__section3-inner-block1">
+                            <div class="main__section3-inner-block1-img"><img src="assets/img/icon5_main.png" alt="icon5_main"></div>
+                            <div class="main__section3-inner-block1-text">Финансовые<br>гарантии</div>
+                        </div>
+                        <div class="main__section3-inner-block1">
+                            <div class="main__section3-inner-block1-img"><img src="assets/img/icon6_main.png" alt="icon6_main"></div>
+                            <div class="main__section3-inner-block1-text">Комфортные<br>цены</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__section4">
+                <div class="main__section4-inner">
+                    <div class="main__section4-inner-mainText">Стоимость бухгалтерского обслуживания</div>
+                    <div class="main__section4-inner-secondText">Стоимость аутсорсинга зависит от оборотов бизнеса. Чем меньше оборот - тем меньше цена.<br>Позвоните по номеру или напишите нам на почту, чтобы узнать подробности.</div>
+                    <div class="main__section4-inner-block">
+                        <div class="main__section4-inner-block1">8 (917) 404-75-85</div>
+                        <div class="main__section4-inner-block1">tsentr.str@mail.ru</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <footer class="footer">
+            <div class="footer__line"></div>
+            <div class="footer-inner">
+                <div class="footer__logo"><img src="assets/img/logo.png" alt="logo"></div>
+                <div class="footer__icons">
+                    <div class="footer__icons-vk"><a href="https://vk.com/feed"><img src="assets/img/vk_footer.png" alt="vk"></a></div>
+                    <div class="footer__icons-tg"><a href="https://t.me/+rbtwxd7xIZk0ZDdi"><img src="assets/img/tg_footer.png" alt="tg"></a></div>
+                </div>
+                <div class="footer__copyright">Все права защищены @ 2025.</div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        })
+    </script>
+</body>
+</html>
